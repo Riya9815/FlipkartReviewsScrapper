@@ -1,4 +1,4 @@
-# Indian Paper Curreny Prediction :india: 
+# Flipkart Reviews Scrapper Application
 
 ## Table of Content
   * [Demo](#demo)
@@ -20,7 +20,7 @@
 ## Demo
 Link: [https://reviewscrapperflipkartapp.herokuapp.com/](https://reviewscrapperflipkartapp.herokuapp.com/)
 
-[![](https://i.imgur.com/5gj4USj.png)](https://indian-currency-prediction.herokuapp.com/)
+[![](https://i.imgur.com/5gj4USj.png)](https://reviewscrapperflipkartapp.herokuapp.com/)
 
 ## Overview
 This is a simple image classification Flask app trained on the top of Keras API. The trained model (`app/model/model.h5`) takes an image (Indian Paper Currency) as an input and predict the class of image from __10, 20, 50, 100, 200, 500, 2000__ denomination.
