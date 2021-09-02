@@ -20,6 +20,13 @@
 ## Demo
 Link: [https://reviewscrapperflipkartapp.herokuapp.com/](https://reviewscrapperflipkartapp.herokuapp.com/)
 
+## Demo Video
+
+
+https://user-images.githubusercontent.com/51814996/131873605-d1bd604d-06f9-42ad-b2cb-d895496cf2b9.mp4
+
+
+
 [![](https://i.imgur.com/5gj4USj.png)](https://reviewscrapperflipkartapp.herokuapp.com/)
 
 ## Overview
