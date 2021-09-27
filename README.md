@@ -8,13 +8,8 @@
   * [Installation](#installation)
   * [Run](#run)
   * [Deployement on Heroku](#deployement-on-heroku)
-  * [Directory Tree](#directory-tree)
-  * [To Do](#to-do)
-  * [Bug / Feature Request](#bug---feature-request)
   * [Technologies Used](#technologies-used)
-  * [Team](#team)
-  * [License](#license)
-  * [Credits](#credits)
+  
 
 
 ## Demo
@@ -29,14 +24,14 @@ https://user-images.githubusercontent.com/51814996/131873605-d1bd604d-06f9-42ad-
 
 
 ## Overview
-This is a simple image classification Flask app trained on the top of Keras API. The trained model (`app/model/model.h5`) takes an image (Indian Paper Currency) as an input and predict the class of image from __10, 20, 50, 100, 200, 500, 2000__ denomination.
+This is Web Scrapping Project using Python. The reviews of customers in fliplart for any particular item is scrapped as an output. This project can make selecting good products easier for customers.
 
 ## Motivation
-What could be a perfect way to utilize unfortunate lockdown period? Like most of you, I spend my time in cooking, Netflix, coding and reading some latest research papers on weekends. The idea of classifying indian currency struck to me when I was browsing through some research papers. I couldn't find any relevant research paper (and of course dataset!) associated with it. And that led me to collect the images of Indian currency to train a deep learning model using [this](https://github.com/hardikvasa/google-images-download) amazing tool.
+People might find it a tedious task to search for items and  go to the reviews and then read about what are the experiences shared by other customers. This web scrapping app will display all the reviews in such on click which can make it really easy for any one to find out the popularity of the product and experience of other customers. 
 
 ## Technical Aspect
 This project is divided into two part:
-1. Training a deep learning model using Keras. (_Not covered in this repo. I'll update the link here once I make it public._)
+1. Using MongoDB database.  
 2. Building and hosting a Flask web app on Heroku.
     - A user can choose image from a device or capture it using a pre-built camera.
     - Used __Amazon S3 Bucket__ to store the uploaded image and predictions.
@@ -87,35 +82,6 @@ Set the environment variable on Heroku as mentioned in _STEP 1_ in the __Run__ s
 
 Our next step would be to follow the instruction given on [Heroku Documentation](https://devcenter.heroku.com/articles/getting-started-with-python) to deploy a web app.
 
-## Directory Tree 
-```
-├── app 
-│   ├── __init__.py
-│   ├── main.py
-│   ├── model
-│   ├── static
-│   └── templates
-├── config
-│   ├── __init__.py
-├── processing
-│   ├── __init__.py
-├── requirements.txt
-├── runtime.txt
-├── LICENSE
-├── Procfile
-├── README.md
-└── wsgi.py
-```
-
-## To Do
-1. Convert the app to run without any internet connection, i.e. __PWA__.
-2. Add a better vizualization chart to display the predictions.
-
-## Bug / Feature Request
-If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/rowhitswami/Indian-Currency-Prediction/issues/new) by including your search query and the expected result.
-
-If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/rowhitswami/Indian-Currency-Prediction/issues/new). Please include sample queries and their corresponding results.
-
 ## Technologies Used
 
 ![](https://forthebadge.com/images/badges/made-with-python.svg)
@@ -124,27 +90,8 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 
 [<img target="_blank" src="https://sentry-brand.storage.googleapis.com/sentry-logo-black.png" width=270>](https://www.sentry.io/) [<img target="_blank" src="https://openjsf.org/wp-content/uploads/sites/84/2019/10/jquery-logo-vertical_large_square.png" width=100>](https://jquery.com/)
 
-## Team
-[![Rohit Swami](https://avatars1.githubusercontent.com/u/16516296?v=3&s=144)](https://rohitswami.com/) |
--|
-[Rohit Swami](https://rohitswami.com/) |)
 
-## License
-[![Apache license](https://img.shields.io/badge/license-apache-blue?style=for-the-badge&logo=appveyor)](http://www.apache.org/licenses/LICENSE-2.0e)
 
-Copyright 2020 Rohit Swami
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
 
 ## Credits
-- [Google Images Download](https://github.com/hardikvasa/google-images-download) - This project wouldn't have been possible without this tool. It saved my enormous amount of time while collecting the data. A huge shout-out to its creator [Hardik Vasa](https://github.com/hardikvasa).
+Google 
