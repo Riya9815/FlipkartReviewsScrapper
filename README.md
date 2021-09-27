@@ -84,12 +84,9 @@ Our next step would be to follow the instruction given on [Heroku Documentation]
 
 ## Technologies Used
 
-![](https://forthebadge.com/images/badges/made-with-python.svg)
 
-[<img target="_blank" src="https://keras.io/img/logo.png" width=200>](https://keras.io/) [<img target="_blank" src="https://flask.palletsprojects.com/en/1.1.x/_images/flask-logo.png" width=170>](https://flask.palletsprojects.com/en/1.1.x/) [<img target="_blank" src="https://number1.co.za/wp-content/uploads/2017/10/gunicorn_logo-300x85.png" width=280>](https://gunicorn.org) [<img target="_blank" src="https://www.kindpng.com/picc/b/301/3012484.png" width=200>](https://aws.amazon.com/s3/) 
-
-[<img target="_blank" src="https://sentry-brand.storage.googleapis.com/sentry-logo-black.png" width=270>](https://www.sentry.io/) [<img target="_blank" src="https://openjsf.org/wp-content/uploads/sites/84/2019/10/jquery-logo-vertical_large_square.png" width=100>](https://jquery.com/)
-
+![image](https://user-images.githubusercontent.com/51814996/134912198-86c5e947-f880-477d-b195-82e45af3c487.png)
+![image](https://user-images.githubusercontent.com/51814996/134912290-73d17a31-661a-412c-82c3-6ba96a72ecff.png)
 
 
 
